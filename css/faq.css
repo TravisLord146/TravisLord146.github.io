@@ -1,0 +1,162 @@
+/* FAQ Page Styles */
+.faq-header {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    padding: 100px 0 50px;
+    text-align: center;
+    color: white;
+}
+
+/* Search Box */
+.search-box {
+    max-width: 600px;
+    margin: 30px auto 0;
+    position: relative;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 15px 20px;
+    padding-right: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.search-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4CAF50;
+}
+
+/* Category Tabs */
+.faq-categories {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.tab-btn {
+    padding: 10px 25px;
+    border: none;
+    background: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tab-btn.active {
+    background: #4CAF50;
+    color: white;
+}
+
+/* FAQ Groups */
+.faq-group {
+    margin-bottom: 50px;
+}
+
+.faq-group h2 {
+    margin-bottom: 30px;
+    color: #2d3436;
+}
+
+/* Accordion */
+.accordion-item {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.accordion-header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.1rem;
+    color: #2d3436;
+}
+
+.accordion-header i {
+    transition: transform 0.3s ease;
+}
+
+.accordion-item.active .accordion-header i {
+    transform: rotate(45deg);
+}
+
+.accordion-content {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.accordion-item.active .accordion-content {
+    padding: 20px;
+    max-height: 1000px;
+}
+
+/* Contact CTA */
+.contact-cta {
+    padding: 80px 0;
+    text-align: center;
+    background: white;
+}
+
+.contact-cta h2 {
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+.contact-cta p {
+    color: #636e72;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .search-box {
+        margin: 30px 20px 0;
+    }
+
+    .category-tabs {
+        padding: 0 20px;
+    }
+
+    .accordion-header {
+        font-size: 1rem;
+        padding: 15px;
+    }
+}
