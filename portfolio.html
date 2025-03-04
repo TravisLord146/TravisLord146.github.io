@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - AgencyPro</title>
+<link rel="stylesheet" href="css/components.css">
+	
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (same as main page) -->
+    <nav class="navbar">
+        <!-- Navigation content -->
+    </nav>
+
+    <!-- Portfolio Header -->
+    <header class="portfolio-header">
+        <div class="container">
+            <h1>Our Work</h1>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">Apps</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <h3>E-commerce Website</h3>
+                            <p>Web Design & Development</p>
+                            <a href="#" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more project cards with same structure -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Footer content -->
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/portfolio.js"></script>
+	<script src="js/components.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        new UIComponents();
+    });
+</script>
+</body>
+</html>

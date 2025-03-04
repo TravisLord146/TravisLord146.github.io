@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - AgencyPro</title>
+    <!-- Same CSS and Font Awesome links as index.html -->
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/components.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Add blog specific CSS -->
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <!-- Include the same navigation from index.html -->
+    <nav class="navbar">
+        <!-- Navigation content -->
+    </nav>
+
+    <!-- Blog Header -->
+    <header class="blog-header">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Latest insights, tips, and industry news</p>
+        </div>
+    </header>
+
+    <!-- Blog Categories -->
+    <div class="blog-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="marketing">Marketing</button>
+                <button class="category-btn" data-category="design">Design</button>
+                <button class="category-btn" data-category="technology">Technology</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Grid -->
+    <section class="blog-grid">
+        <div class="container">
+            <div class="posts-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-post" data-category="marketing">
+                    <div class="post-image">
+                        <img src="images/blog-1.jpg" alt="Blog Post 1">
+                        <div class="post-category">Marketing</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> Jan 15, 2024</span>
+                            <span><i class="far fa-user"></i> John Doe</span>
+                        </div>
+                        <h2>10 Digital Marketing Trends for 2024</h2>
+                        <p>Discover the latest trends that will shape the digital marketing landscape in 2024...</p>
+                        <a href="blog-post.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-post" data-category="design">
+                    <!-- Similar structure as Blog Post 1 -->
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-post" data-category="technology">
+                    <!-- Similar structure as Blog Post 1 -->
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <span>...</span>
+                <a href="#">Next <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include the same footer from index.html -->
+    <footer class="footer">
+        <!-- Footer content -->
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/blog.js"></script>
+	<script src="js/components.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        new UIComponents();
+    });
+</script>
+
+</body>
+</html>

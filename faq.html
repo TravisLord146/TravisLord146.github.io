@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - AgencyPro</title>
+	<link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <!-- Navigation content -->
+    </nav>
+
+    <!-- FAQ Header -->
+    <header class="faq-header">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            <div class="search-box">
+                <input type="text" id="faqSearch" placeholder="Search questions...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- FAQ Categories -->
+    <section class="faq-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="all">All</button>
+                <button class="tab-btn" data-category="general">General</button>
+                <button class="tab-btn" data-category="services">Services</button>
+                <button class="tab-btn" data-category="pricing">Pricing</button>
+                <button class="tab-btn" data-category="technical">Technical</button>
+            </div>
+
+            <div class="faq-content">
+                <!-- General FAQs -->
+                <div class="faq-group" data-category="general">
+                    <h2>General Questions</h2>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>What services do you offer?</span>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p>We offer a wide range of digital services including web development, digital marketing, branding, and more.</p>
+                            </div>
+                        </div>
+                        <!-- Add more accordion items -->
+                    </div>
+                </div>
+
+                <!-- Services FAQs -->
+                <div class="faq-group" data-category="services">
+                    <!-- Similar structure as General FAQs -->
+                </div>
+
+                <!-- More FAQ groups -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Still Have Questions -->
+    <section class="contact-cta">
+        <div class="container">
+            <h2>Still Have Questions?</h2>
+            <p>Can't find the answer you're looking for? Please chat to our friendly team.</p>
+            <a href="contact.html" class="cta-btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Footer content -->
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/faq.js"></script>
+	<script src="js/components.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        new UIComponents();
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="template-info" content="Protected Template by [Your Name]">
+    <style>
+        /* Watermark Style */
+        .template-watermark {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+            background: url('data:image/svg+xml;base64,[Your encoded watermark]') repeat;
+            opacity: 0.1;
+        }
+    </style>
+	<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-container">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="#">Agency<span>Pro</span></a>
+        </div>
+
+        <!-- Mobile Menu Icon (Hamburger) -->
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="nav-btn">Get Started</a></li>
+        </ul>
+    </div>
+</nav>
+<section class="hero" id="home">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1>Transform Your Digital Presence</h1>
+            <p class="hero-subtitle">We help businesses grow through strategic digital marketing and innovative solutions.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="primary-btn">Get Started</a>
+                <a href="#portfolio" class="secondary-btn">View Our Work</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-text">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-text">Satisfied Clients</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-text">Years Experience</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero-image.svg" alt="Digital Marketing Solutions">
+        </div>
+    </div>
+</section>
+<section class="services" id="services">
+    <div class="services-container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <h2>Our Services</h2>
+            <p>We offer comprehensive digital solutions to grow your business</p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid">
+            <!-- Service Card 1 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>SEO Optimization</h3>
+                <p>Boost your website rankings with our proven SEO strategies</p>
+                <ul class="service-features">
+                    <li>Keyword Research</li>
+                    <li>On-Page SEO</li>
+                    <li>Link Building</li>
+                </ul>
+                <a href="#contact" class="service-btn">Learn More</a>
+            </div>
+
+            <!-- Service Card 2 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-ad"></i>
+                </div>
+                <h3>PPC Advertising</h3>
+                <p>Targeted ads that drive results and maximize ROI</p>
+                <ul class="service-features">
+                    <li>Google Ads</li>
+                    <li>Social Media Ads</li>
+                    <li>Retargeting</li>
+                </ul>
+                <a href="#contact" class="service-btn">Learn More</a>
+            </div>
+
+            <!-- Service Card 3 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-pen"></i>
+                </div>
+                <h3>Content Marketing</h3>
+                <p>Engaging content that connects with your audience</p>
+                <ul class="service-features">
+                    <li>Blog Writing</li>
+                    <li>Copywriting</li>
+                    <li>Content Strategy</li>
+                </ul>
+                <a href="#contact" class="service-btn">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio" id="portfolio">
+    <div class="portfolio-container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <h2>Our Work</h2>
+            <p>Check out some of our successful projects</p>
+        </div>
+
+        <!-- Portfolio Filter -->
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Design</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item web">
+                <div class="portfolio-item-inner">
+                    <img src="images/portfolio-1.jpg" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>E-Commerce Website</h3>
+                        <p>Web Design & Development</p>
+                        <a href="#" class="portfolio-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item marketing">
+                <div class="portfolio-item-inner">
+                    <img src="images/portfolio-2.jpg" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Marketing Campaign</h3>
+                        <p>Digital Marketing</p>
+                        <a href="#" class="portfolio-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="portfolio-item branding">
+                <div class="portfolio-item-inner">
+                    <img src="images/portfolio-3.jpg" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Branding & Design</p>
+                        <a href="#" class="portfolio-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about" id="about">
+    <div class="about-container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <h2>Who We Are</h2>
+            <p>Meet the experts behind our successful strategies</p>
+        </div>
+
+        <!-- Company Overview -->
+        <div class="company-overview">
+            <div class="overview-content">
+                <h3>Your Digital Success Partner</h3>
+                <p>With over 10 years of experience, we've helped hundreds of businesses achieve their digital goals. Our team of experts combines creativity with data-driven strategies to deliver exceptional results.</p>
+                
+                <div class="company-stats">
+                    <div class="stat-box">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Team Members</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Section -->
+        <div class="team-section">
+            <h3>Meet Our Experts</h3>
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-1.jpg" alt="Team Member 1">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>John Smith</h4>
+                        <p>CEO & Founder</p>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-2.jpg" alt="Team Member 2">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Sarah Johnson</h4>
+                        <p>Marketing Director</p>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-3.jpg" alt="Team Member 3">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Mike Wilson</h4>
+                        <p>Lead Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>Ready to start your project? Contact us today!</p>
+        </div>
+
+        <div class="contact-wrapper">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>123 Business Street, NY 10001</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@yourcompany.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+<!-- Contact Form -->
+<div class="contact-form">
+    <form id="contactForm">
+        <div class="form-group">
+            <input type="text" id="name" name="name" placeholder=" " required>
+            <label for="name">Your Name</label>
+        </div>
+        <div class="form-group">
+            <input type="email" id="email" name="email" placeholder=" " required>
+            <label for="email">Your Email</label>
+        </div>
+        <div class="form-group">
+            <textarea id="message" name="message" placeholder=" " required></textarea>
+            <label for="message">Your Message</label>
+        </div>
+        <button type="submit" class="submit-btn">
+            Send Message <i class="fas fa-paper-plane"></i>
+        </button>
+    </form>
+</div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Agency<span>Pro</span></h3>
+                <p>Your Digital Success Partner</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AgencyPro. All rights reserved.</p>
+        </div>
+    </div>
+	<!-- Watermark Element -->
+    <div class="template-watermark"></div>
+    
+    <!-- License Verification -->
+    <script>
+        (function(){
+            const templateInfo = {
+                name: '[Template Name]',
+                author: '[Your Name]',
+                license: 'DEMO',
+                version: '1.0'
+            };
+
+            // Protection Logic
+            function protectTemplate() {
+                if(templateInfo.license === 'DEMO') {
+                    // Add watermark
+                    document.querySelector('.template-watermark').style.display = 'block';
+                    
+                    // Disable right-click
+                    document.addEventListener('contextmenu', e => e.preventDefault());
+                    
+                    // Disable view-source
+                    document.onkeydown = function(e) {
+                        if(e.ctrlKey && 
+                           (e.keyCode === 85 || e.keyCode === 83 || e.keyCode === 73)) {
+                            return false;
+                        }
+                    };
+                }
+            }
+
+            protectTemplate();
+        })();
+    </script>
+	<script src="js/components.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        new UIComponents();
+    });
+</script>
+<link rel="stylesheet" href="css/components.css">
+    <!-- We'll add content here -->
+</body>
+<!--
+Template: [Agency/Business]
+Author: [TravisLord]
+Website: [Your Website]
+License: Commercial use requires purchase from [marketplace link]
+Version: 1.0
+-->
+<script src="js/script.js"></script>
+</html>
